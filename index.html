@@ -8,7 +8,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -220,28 +220,57 @@
   </div>
 </div>
 
+</fieldset>
 
+<fieldset>
+  <legend>Do you have a valid driver’s license?</legend>
 
-  Do you have a valid driver’s license?
-  - Yes
-  - No
+  <input type="radio" id="license-y" name="license">
+  <label for="license-y">Yes</label>
 
-  Do you have a pick-up truck you’d be willing to use?
-  - Yes
-  - No
+  <input type="radio" id="license-n" name="license">
+  <label for="license-n">No</label>
+</fieldset>
 
-  Do you have up-to-date first-aid certification?
-  - Yes
-  - No
+<fieldset>
+  <legend>Do you have a pick-up truck you’d be willing to use?</legend>
 
-  Please let us know any comments or questions you may have.
+  <input type="radio" id="truck-y" name="license">
+  <label for="truck-y">Yes</label>
 
-  Apply
+  <input type="radio" id="truck-n" name="license">
+  <label for="truck-n">No</label>
+</fieldset>
 
+<fieldset>
+  <legend>Do you have up-to-date first-aid certification?</legend>
 
+  <input type="radio" id="first-aid-y" name="license">
+  <label for="first-aid-y">Yes</label>
+
+  <input type="radio" id="first-aid-n" name="license">
+  <label for="first-aid-n">No</label>
+</fieldset>
+
+<div>
+<label for="purpose">"Please let us know any comments or questions you may have.</label>
+<textarea id="purpose" name="message" required></textarea>
 </div>
-<footer>
-  © Tree Hugger International Organization
+
+<div class="gutter-1-2">
+  <hr class="push-2">
+</div>
+
+<div class="gutter-1-2 text-center">
+  <button class="btn giga gutter-2" type="submit">Apply</button>
+</div>
+</form>
+</div>
+
+<footer class="pad-t pad-b section-primary">
+  <div class="wrapper gutter-1-2">
+    <p class="push-0 milli">© Tree Hugger International Organization</p>
+</div>
 </footer>
 
 </body>

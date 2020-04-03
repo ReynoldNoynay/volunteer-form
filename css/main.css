@@ -1,17 +1,19 @@
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Serif", sans-serif;
   background-color: #f2f2f2;
 }
 
-.content {
-  background-color: #fff;
+.header {
+  background-color: #70ad55;
+  color: #fff;
 }
 
-h1 {
-  border-bottom: 1px #000 solid;
+fieldset {
+  border: 0;
 }
 
-@media only screen and (min-width: 60em) {
+
+@media only screen and (min-width: 38em) {
 
   .space-right {
     padding-right: .5em;
@@ -21,4 +23,26 @@ h1 {
     padding-left: .5em;
   }
 
+}
+
+hr {
+  border-color: #70ad55;
+  opacity: .3;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+input, select, textarea {
+  border-color: #6e8c62;
+}
+
+footer {
+  background-color: #70ad55;
 }
