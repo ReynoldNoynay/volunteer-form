@@ -1,9 +1,9 @@
 html {
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Noto Serif", serif;
   background-color: #f2f2f2;
 }
 
-.header {
+header {
   background-color: #70ad55;
   color: #fff;
 }
@@ -11,7 +11,6 @@ html {
 fieldset {
   border: 0;
 }
-
 
 @media only screen and (min-width: 38em) {
 
@@ -23,6 +22,10 @@ fieldset {
     padding-left: .5em;
   }
 
+}
+
+.flag-optional {
+  color: #70ad55;
 }
 
 hr {
@@ -39,7 +42,9 @@ textarea {
   border-color: #6e8c62;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   border-color: #6e8c62;
 }
 
